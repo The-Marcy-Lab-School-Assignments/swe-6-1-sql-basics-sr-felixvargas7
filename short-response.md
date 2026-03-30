@@ -9,8 +9,7 @@ Answer each question below. Write in complete sentences (3–5 per answer).
 What is a database? Why do we use one instead of storing data in a JavaScript array on your server?
 
 **Your answer:**
-
----
+A **database** is any collection of data, structured in an organized manner. Databases allow for **persistent** data structures, meaning that data is written in disk or hard drive storage, rather than the random access memory (RAM). Since we are able to use hard drive/disk instead of RAM, any modifications made to the data remain, whereas using RAM, which is where data like a JavaScript array lives, will result in data resets when the server is reset. This means that by using a database, our servers can be shut down for updates, crash, and restart without disrupting any data.
 
 ## Question 2
 
@@ -28,7 +27,7 @@ In one sentence, describe what this query does in plain English:
 SELECT * FROM books WHERE genre = 'fiction' ORDER BY year DESC LIMIT 5;
 ```
 
-Aim for something like: *"It returns the 5 most recently published fiction books."*
+Aim for something like: _"It returns the 5 most recently published fiction books."_
 
 **Your answer:**
 
